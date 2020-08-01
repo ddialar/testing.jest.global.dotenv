@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@manifest": ["manifest.json"]
+        },
+        "typeRoots": ["./node_modules/@types"],
+        "resolveJsonModule": true
+    },
+    "include": ["src/**/*", "types"],
+    "exclude": ["node_modules"]
+}
