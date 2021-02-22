@@ -4,7 +4,7 @@
 
 ## 📗 Description
 
-This repository containes a demo aobut how to configure [Jest](https://github.com/facebook/jest) in order to use a [Dotenv](https://github.com/motdotla/dotenv) custom configuration globally for TypeScript with Webpack projects.
+This repository containes a demo about how to configure [Jest](https://github.com/facebook/jest) in order to use a [Dotenv](https://github.com/motdotla/dotenv) custom configuration globally for TypeScript with Webpack projects.
 
 ## 🎯 Target
 
@@ -49,7 +49,7 @@ When the testing framework run at the first time, this file is executed, loading
 
 Finally, I have just to introduce this property into the Jest configuration file ([`jest.config.json`](https://github.com/ddialar/testing.jest.global.dotenv/jest.config.json)) and provide the location of the Dotenv file.
 
-```json
+```
 {
     ...
     "globalSetup": "<rootDir>/dotenv/dotenv-test.js",
