@@ -49,11 +49,13 @@ When the testing framework run at the first time, this file is executed, loading
 
 Finally, I have just to introduce this property into the Jest configuration file ([`jest.config.json`](https://github.com/ddialar/testing.jest.global.dotenv/jest.config.json)) and provide the location of the Dotenv file.
 
-```
+```jsonc
 {
-    ...
+    // Other configuration properties...
+
     "globalSetup": "<rootDir>/dotenv/dotenv-test.js",
-    ...
+    
+    // Other configuration properties...
 }
 ```
 
