@@ -1,6 +1,6 @@
 # Environment configuration
 
-In oreder to work with this project, you are going to need to define tree differente environment files:
+In order to work with this project, you are going to need to define three different environment files:
 
 -   `.env` for production/deployment code.
 -   `.env.dev` for development tasks.
